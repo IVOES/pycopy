@@ -6,6 +6,8 @@
 #make submodules
 #make
 
+git submodule sync
+
 source tools/ci.sh && ci_unix_minimal_build
 source tools/ci.sh && ci_unix_standard_build
 
